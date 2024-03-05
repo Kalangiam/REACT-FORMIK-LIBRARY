@@ -66,7 +66,7 @@ function BlogEdit() {
           <form onSubmit={handleSubmit}>
             <div className='form-group'>
               <label>Author_Name</label>
-              <input type='text'
+              <input type='date'
                 name='Author'
                 value={values.Author}
                 onChange={handleChange}
