@@ -66,7 +66,7 @@ function BlogEdit() {
           <form onSubmit={handleSubmit}>
             <div className='form-group'>
               <label>Author_Name</label>
-              <input type='date'
+              <input type='text'
                 name='Author'
                 value={values.Author}
                 onChange={handleChange}
@@ -76,12 +76,12 @@ function BlogEdit() {
             </div>
             <div className='form-group'>
             <label>Birth_date</label>
-              <textarea className="form-control form-control-user"
+              <input type="date" className="form-control form-control-user"
                 name='Birth_Date'
                 value={values.Birth_Date}
                 onChange={handleChange}
                 id="exampleFirstDescription"
-                placeholder='Birth_Date'></textarea>
+                placeholder='Birth_Date'></input>
             </div>
             <div className='form-group'>
             <label>Biography</label>
